@@ -12,3 +12,13 @@ elif [[ -d /home/linuxbrew/.linuxbrew ]]; then
     test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
     test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 fi
+
+# Added by Toolbox App
+export PATH="$PATH:/Users/nwhite/Library/Application Support/JetBrains/Toolbox/scripts"
+
+# added by Snowflake SnowCD installer
+export PATH=/opt/snowflake/snowcd:$PATH
+
+# ODBC C/C++ development
+export LDFLAGS="-L/opt/homebrew/opt/libiodbc/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/libiodbc/include"
