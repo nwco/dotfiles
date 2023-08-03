@@ -4,7 +4,7 @@ if OS.mac?
     # taps
     tap "homebrew/cask"
     tap "homebrew/cask-fonts"
-    tap "koekeishiya/formulae"
+#N    tap "koekeishiya/formulae"
 
     brew "noti" # utility to display notifications from scripts
     brew "trash" # rm, but put in the trash rather than completely delete
@@ -16,8 +16,8 @@ if OS.mac?
     cask "wezterm" # a better terminal emulator
 
     # yabai
-    brew "yabai"
-    brew "skhd"
+#N    brew "yabai"
+#N    brew "skhd"
 
     # Fonts
     cask "font-fira-code"
@@ -52,7 +52,7 @@ brew "jq" # work with JSON files in shell scripts
 brew "lazygit" # a better git UI
 brew "neofetch" # pretty system info
 brew "neovim" # A better vim
-brew "python" # python (latest)
+#N brew "python" # python (latest)
 brew "ripgrep" # very fast file searcher
 brew "shellcheck" # diagnostics for shell sripts
 brew "tmux" # terminal multiplexer
