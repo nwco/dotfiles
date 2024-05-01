@@ -28,9 +28,13 @@ alias clsym="find -L . -name . -o -type d -prune -o -type l -exec rm {} +"
 
 
 # use exa if available
-if [[ -x "$(command -v exa)" ]]; then
-  alias ll="exa --icons --git --long"
-  alias l="exa --icons --git --all --long"
+if [[ -x "$(command -v eza)" ]]; then
+  alias ll='eza --icons --git --long'
+  alias l='eza --icons --git --all --long'
+  alias ld='eza -lD'
+  alias lf='eza --color=always | grep -v /'
+  alias lh='eza -dl .* --group-directories-first'
+  alias ls='eza -alf --color=always --sort=size | grep -v /'
 else
   alias l="ls -lah ${colorflag}"
   alias ll="ls -lFh ${colorflag}"
@@ -38,3 +42,9 @@ fi
 alias la="ls -AF ${colorflag}"
 alias lld="ls -l | grep ^d"
 alias rmf="rm -rf"
+
+# Show more history entries by default
+alias history="fc -l 100"
+
+# show all history entries
+alias histsearch="fc -l 0 | grep"

@@ -19,7 +19,6 @@ local nnoremap = utils.nnoremap
 local inoremap = utils.inoremap
 local vnoremap = utils.vnoremap
 local icons = require("theme").icons
-
 -- create a completion_nvim table on _G which is visible via
 -- v:lua from vimscript
 _G.completion_nvim = {}
@@ -110,7 +109,7 @@ opt.cmdheight = 0 -- hide command bar when not used
 opt.title = true -- set terminal title
 opt.showmatch = true -- show matching braces
 opt.mat = 2 -- how many tenths of a second to blink
-opt.updatetime = 300
+opt.updatetime = 600
 opt.signcolumn = "yes"
 opt.shortmess = "atToOFc" -- prompt message options
 
@@ -250,11 +249,12 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+  -- single/multi line code handler: gS - split one line into multiple, gJ - combine multiple lines into one
+  "AndrewRadev/splitjoin.vim",
   { import = "plugins" },
-  { import = "plugins.extras.copilot" },
+  -- { import = "plugins.extras.copilot" },
   { import = "plugins.extras.astro" },
 }, { ui = { border = theme.border } })
-
 cmd([[syntax on]])
 cmd([[filetype plugin indent on]])
 

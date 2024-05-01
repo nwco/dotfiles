@@ -1,0 +1,6 @@
+timediff() {
+  stime=$1
+  etime=$2
+  tdiff_epoch_ns = $(( $(timestamp "$etime") - $(timestamp "$stime") ))
+  echo $tdiff_epoch_ns
+}

@@ -25,3 +25,11 @@ export CPPFLAGS="-I/opt/homebrew/opt/libiodbc/include"
 
 # added by Snowflake SnowSQL installer v1.2
 export PATH=/Applications/SnowSQL.app/Contents/MacOS:$PATH
+
+# added manually by Nick for Java
+export PATH=$JAVA_HOME/bin:$PATH
+
+# Setting PATH for Python 3.11
+# The original version is saved in .zprofile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${PATH}"
+export PATH
