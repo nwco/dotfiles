@@ -50,7 +50,7 @@ return {
       },
     },
     keys = {
-      { "<leader>k", "<cmd>Neotree toggle reveal<cr>" },
+      { "C-n", "<cmd>Neotree toggle reveal<cr>" },
     },
     opts = {
       -- don't reset the cursor position when opening a file

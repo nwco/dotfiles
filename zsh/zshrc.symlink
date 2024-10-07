@@ -17,6 +17,7 @@ prepend_path /usr/local/sbin
 prepend_path /usr/bin
 prepend_path $DOTFILES/bin
 prepend_path $HOME/bin
+prepend_path /opt/homebrew/opt/libiodbc/bin
 
 # define the code directory
 # This is where my code exists and where I want the `c` autocomplete to work from exclusively
@@ -192,6 +193,7 @@ export DOTNET_ROOT="/opt/homebrew/opt/dotnet/libexec"
 
 # PHP
 export PATH=/opt/php-8.3.4/bin:$PATH
+export PHP_HOME=/opt/php-8.3.4
 
 autoload -Uz compinit
 zstyle ':completion:*' menu select

@@ -146,13 +146,13 @@ opt.listchars = {
 opt.fcs = "eob: "
 
 -- Mappings
-g.mapleader = ","
+g.mapleader = " "
 opt.pastetoggle = "<leader>v"
 
 nnoremap("Q", "<nop>")
 imap("jk", "<Esc>")
 nmap("<leader>,", ":silent w<cr>")
-nmap("<space>", ":silent set hlsearch! hlsearch?<cr>")
+nmap(",", ":silent set hlsearch! hlsearch?<cr>")
 
 nmap("<leader><space>", [[:%s/\s\+$<cr>]])
 nmap("<leader><space><space>", [[:%s/\n\{2,}/\r\r/g<cr>]])

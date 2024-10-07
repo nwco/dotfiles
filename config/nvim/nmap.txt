@@ -1,0 +1,393 @@
+
+
+
+n  K           *@<Lua 1331: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/lsp/buf.lua:40>
+n  S           *@<Lua 1330: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/lsp/buf.lua:101>
+n  ga          *@<Lua 1329: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/lsp/buf.lua:762>
+n  gy          *@<Lua 1332: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/lsp/buf.lua:84>
+n  gR          *@<Lua 1333: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/lsp/buf.lua:397>
+n  gr          *@<Lua 1334: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/lsp/buf.lua:271>
+n  go          *@<Lua 1335: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/lsp/buf.lua:84>
+n  gD          *@<Lua 1336: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/lsp/buf.lua:64>
+n  gd          *@<Lua 453: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/lsp/buf.lua:74>
+n  gO          *@<Lua 450: ~/.config/nvim/lua/plugins/lsp/config.lua:29>
+n  <Space>aq   * <Lua 447: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/diagnostic.lua:1527>
+n  <Space>aa   * <Lua 513: ~/.config/nvim/lua/plugins/lsp/config.lua:34>
+n  <Space>gr   * <Cmd>Gread<CR>
+                 read file from git
+n  <Space>gb   * <Cmd>G blame<CR>
+                 read file from git
+n  <Space>t    * <Cmd>Telescope git_files<CR>
+n  <Space>fh   * <Cmd>Telescope help_tags<CR>
+n  <Space>r    * <Cmd>Telescope buffers<CR>
+n  <Space>fb   * <Cmd>Telescope buffers<CR>
+n  <Space>fr   * <Cmd>lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>
+n  <Space>fg   * <Cmd>Telescope live_grep<CR>
+n  <Space>fn   * <Cmd>Telescope node_modules list<CR>
+n  <Space>fo   * <Cmd>Telescope oldfiles<CR>
+n  <Space>fs   * <Cmd>Telescope git_files<CR>
+n  <Space>ff   * <Cmd>Telescope find_files<CR>
+n  <Space>xl   * <Lua 25: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:112>
+n  <Space>xq   * <Lua 24: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:112>
+n  <Space>xd   * <Lua 23: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:112>
+n  <Space>xw   * <Lua 22: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:112>
+n  <Space>xx   * <Lua 21: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:112>
+n  <Space>sw   * <Lua 18: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:112>
+                 open spectre
+n  <Space>sr   * <Lua 17: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:112>
+                 open spectre
+n  <Space>ss   * <Lua 16: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:112>
+                 open spectre
+n  <Space>sp   * <Lua 14: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:112>
+                 open spectre
+n  <Space>un   * <Lua 12: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:112>
+                 Dismiss all Notifications
+n  <Space>6      <Plug>HiInterestingWord6
+n  <Space>5      <Plug>HiInterestingWord5
+n  <Space>4      <Plug>HiInterestingWord4
+n  <Space>3      <Plug>HiInterestingWord3
+n  <Space>2      <Plug>HiInterestingWord2
+n  <Space>1      <Plug>HiInterestingWord1
+n  <Space>0      <Plug>ClearInterestingWord
+n  <Space>i      :set cursorline!<CR>
+n  <Space>z      <Plug>Zoom
+n  <Space>.      <C-^>
+n  <Space>l      :set list!<CR>
+n  <Space><Space><Space>   :%s/\n\{2,}/\r\r/g<CR>
+n  <Space><Space>   :%s/\s\+$<CR>
+n  <Space>       :silent set hlsearch! hlsearch?<CR>
+n  <Space>,      :silent w<CR>
+n  $           * v:count == 0 ? "g$" : "$"
+n  %             <Plug>(MatchitNormalForward)
+n  &           * :&&<CR>
+                 Nvim builtin
+n  <p            <Plug>(unimpaired-put-below-leftward)
+n  <P            <Plug>(unimpaired-put-above-leftward)
+n  <s<Esc>     & <Nop>
+n  <s            <Plug>(unimpaired-enable)
+n  =p            <Plug>(unimpaired-put-below-reformat)
+n  =P            <Plug>(unimpaired-put-above-reformat)
+n  =s<Esc>     & <Nop>
+n  =s            <Plug>(unimpaired-toggle)
+n  >p            <Plug>(unimpaired-put-below-rightward)
+n  >P            <Plug>(unimpaired-put-above-rightward)
+n  >s<Esc>     & <Nop>
+n  >s            <Plug>(unimpaired-disable)
+n  C-n         * <Cmd>Neotree toggle reveal<CR>
+n  Q           * <Nop>
+n  Y           * y$
+                 Nvim builtin
+n  [d          * <Lua 120: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/diagnostic.lua:807>
+n  [%            <Plug>(MatchitNormalMultiBackward)
+n  [xx           <Plug>(unimpaired-xml-encode-line)
+n  [x            <Plug>(unimpaired-xml-encode)
+n  [uu           <Plug>(unimpaired-url-encode-line)
+n  [u            <Plug>(unimpaired-url-encode)
+n  [CC           <Plug>(unimpaired-string-encode-line)
+n  [C            <Plug>(unimpaired-string-encode)
+n  [yy           <Plug>(unimpaired-string-encode-line)
+n  [y            <Plug>(unimpaired-string-encode)
+n  [P            <Plug>(unimpaired-put-above)
+n  [p            <Plug>(unimpaired-put-above)
+n  [o<Esc>     & <Nop>
+n  [o            <Plug>(unimpaired-enable)
+n  [e            <Plug>(unimpaired-move-up)
+n  [<Space>      <Plug>(unimpaired-blank-up)
+n  [n            <Plug>(unimpaired-context-previous)
+n  [f            <Plug>(unimpaired-directory-previous)
+n  [<C-T>        <Plug>(unimpaired-ptprevious)
+n  [T            <Plug>(unimpaired-tfirst)
+n  [t            <Plug>(unimpaired-tprevious)
+n  [<C-Q>        <Plug>(unimpaired-cpfile)
+n  [Q            <Plug>(unimpaired-cfirst)
+n  [q            <Plug>(unimpaired-cprevious)
+n  [<C-L>        <Plug>(unimpaired-lpfile)
+n  [L            <Plug>(unimpaired-lfirst)
+n  [l            <Plug>(unimpaired-lprevious)
+n  [B            <Plug>(unimpaired-bfirst)
+n  [b            <Plug>(unimpaired-bprevious)
+n  [A            <Plug>(unimpaired-first)
+n  [a            <Plug>(unimpaired-previous)
+n  \s            :set ts=4 sts=4 sw=4 et<CR>
+n  \t            :set ts=4 sts=4 sw=4 noet<CR>
+n  ]d          * <Lua 482: /opt/homebrew/Cellar/neovim/0.9.5/share/nvim/runtime/lua/vim/diagnostic.lua:853>
+n  ]%            <Plug>(MatchitNormalMultiForward)
+n  ]xx           <Plug>(unimpaired-xml-decode-line)
+n  ]x            <Plug>(unimpaired-xml-decode)
+n  ]uu           <Plug>(unimpaired-url-decode-line)
+n  ]u            <Plug>(unimpaired-url-decode)
+n  ]CC           <Plug>(unimpaired-string-decode-line)
+n  ]C            <Plug>(unimpaired-string-decode)
+n  ]yy           <Plug>(unimpaired-string-decode-line)
+n  ]y            <Plug>(unimpaired-string-decode)
+n  ]P            <Plug>(unimpaired-put-below)
+n  ]p            <Plug>(unimpaired-put-below)
+n  ]o<Esc>     & <Nop>
+n  ]o            <Plug>(unimpaired-disable)
+n  ]e            <Plug>(unimpaired-move-down)
+n  ]<Space>      <Plug>(unimpaired-blank-down)
+n  ]n            <Plug>(unimpaired-context-next)
+n  ]f            <Plug>(unimpaired-directory-next)
+n  ]<C-T>        <Plug>(unimpaired-ptnext)
+n  ]T            <Plug>(unimpaired-tlast)
+n  ]t            <Plug>(unimpaired-tnext)
+n  ]<C-Q>        <Plug>(unimpaired-cnfile)
+n  ]Q            <Plug>(unimpaired-clast)
+n  ]q            <Plug>(unimpaired-cnext)
+n  ]<C-L>        <Plug>(unimpaired-lnfile)
+n  ]L            <Plug>(unimpaired-llast)
+n  ]l            <Plug>(unimpaired-lnext)
+n  ]B            <Plug>(unimpaired-blast)
+n  ]b            <Plug>(unimpaired-bnext)
+n  ]A            <Plug>(unimpaired-last)
+n  ]a            <Plug>(unimpaired-next)
+n  ^           * v:count == 0 ? "g^" :  "^"
+n  cr            <Plug>(abolish-coerce-word)
+n  cS            <Plug>CSurround
+n  cs            <Plug>Csurround
+n  ds            <Plug>Dsurround
+n  gl          * <Lua 1337: ~/.config/nvim/lua/plugins/lsp/config.lua:34>
+n  gx            <Plug>NetrwBrowseX
+n  g%            <Plug>(MatchitNormalBackward)
+n  gcu           <Plug>Commentary<Plug>Commentary
+n  gcc           <Plug>CommentaryLine
+n  gc            <Plug>Commentary
+n  gS          * :<C-U>call <SNR>38_Mapping(g:splitjoin_split_mapping, "sj#Split")<CR>
+n  gJ          * :<C-U>call <SNR>38_Mapping(g:splitjoin_join_mapping, "sj#Join")<CR>
+n  gTT           :tab sb<CR>
+n  j           * v:count == 0 ? "gj" : "j"
+n  k           * v:count == 0 ? "gk" : "k"
+n  ySS           <Plug>YSsurround
+n  ySs           <Plug>YSsurround
+n  yss           <Plug>Yssurround
+n  yS            <Plug>YSurround
+n  ys            <Plug>Ysurround
+n  yo<Esc>     & <Nop>
+n  yo            <Plug>(unimpaired-toggle)
+n  y<C-G>      & :<C-U>call setreg(v:register, fugitive#Object(@%))<CR>
+n  <Plug>(-fzf-complete-finish) * a
+n  <Plug>(-fzf-:) * :
+n  <Plug>(-fzf-/) * /
+n  <Plug>(-fzf-vim-do) * :execute g:__fzf_command<CR>
+n  <Plug>NetrwBrowseX * :call netrw#BrowseX(netrw#GX(),netrw#CheckIfRemote(netrw#GX()))<CR>
+n  <Plug>(MatchitNormalMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>
+n  <Plug>(MatchitNormalMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>
+n  <Plug>(MatchitNormalBackward) * :<C-U>call matchit#Match_wrapper('',0,'n')<CR>
+n  <Plug>(MatchitNormalForward) * :<C-U>call matchit#Match_wrapper('',1,'n')<CR>
+n  <Plug>Zoom  * :<C-U>call <SNR>58_Zoom()<CR>
+n  <Plug>WinMoveRight * :<C-U>call <SNR>57_WinMove('l')<CR>
+n  <Plug>WinMoveUp * :<C-U>call <SNR>57_WinMove('k')<CR>
+n  <Plug>WinMoveDown * :<C-U>call <SNR>57_WinMove('j')<CR>
+n  <Plug>WinMoveLeft * :<C-U>call <SNR>57_WinMove('h')<CR>
+n  <Plug>HiInterestingWord6 * :<C-U>call <SNR>55_HiInterestingWord(6)<CR>
+n  <Plug>HiInterestingWord5 * :<C-U>call <SNR>55_HiInterestingWord(5)<CR>
+n  <Plug>HiInterestingWord4 * :<C-U>call <SNR>55_HiInterestingWord(4)<CR>
+n  <Plug>HiInterestingWord3 * :<C-U>call <SNR>55_HiInterestingWord(3)<CR>
+n  <Plug>HiInterestingWord2 * :<C-U>call <SNR>55_HiInterestingWord(2)<CR>
+n  <Plug>HiInterestingWord1 * :<C-U>call <SNR>55_HiInterestingWord(1)<CR>
+n  <Plug>ClearInterestingWord * :<C-U>call <SNR>55_ClearInterestingWord()<CR>
+n  <Plug>(vsnip-cut-text) * :set operatorfunc=<SNR>42_vsnip_cut_text_normal<CR>g@
+n  <Plug>(vsnip-select-text) * :set operatorfunc=<SNR>42_vsnip_select_text_normal<CR>g@
+n  <Plug>(abolish-coerce-word) * <SNR>40_coerce(nr2char(getchar())).'iw'
+n  <Plug>(abolish-coerce) * <SNR>40_coerce(nr2char(getchar()))
+n  <Plug>CommentaryUndo   :echoerr "Change your <Plug>CommentaryUndo map to <Plug>Commentary<Plug>Commentary"<CR>
+n  <Plug>ChangeCommentary * c:<C-U>call <SNR>39_textobject(1)<CR>
+n  <Plug>CommentaryLine * <SNR>39_go() . '_'
+n  <Plug>Commentary * <SNR>39_go()
+n  <Plug>SplitjoinJoin * :<C-U>call sj#Join()<CR>
+n  <Plug>SplitjoinSplit * :<C-U>call sj#Split()<CR>
+n  <Plug>YSurround * <SNR>32_opfunc2('setup')
+n  <Plug>Ysurround * <SNR>32_opfunc('setup')
+n  <Plug>YSsurround * <SNR>32_opfunc2('setup').'_'
+n  <Plug>Yssurround * '^'.v:count1.<SNR>32_opfunc('setup').'g_'
+n  <Plug>CSurround * :<C-U>call <SNR>32_changesurround(1)<CR>
+n  <Plug>Csurround * :<C-U>call <SNR>32_changesurround()<CR>
+n  <Plug>Dsurround * :<C-U>call <SNR>32_dosurround(<SNR>32_inputtarget())<CR>
+n  <Plug>SurroundRepeat * .
+n  <Plug>(unimpaired-xml-decode-line) * <SNR>31_TransformSetup("xml_decode")."_"
+n  <Plug>(unimpaired-xml-decode) * <SNR>31_TransformSetup("xml_decode")
+n  <Plug>unimpaired_line_xml_decode * <SNR>31_TransformSetup("xml_decode")."_"
+n  <Plug>unimpaired_xml_decode * <SNR>31_TransformSetup("xml_decode")
+n  <Plug>(unimpaired-xml-encode-line) * <SNR>31_TransformSetup("xml_encode")."_"
+n  <Plug>(unimpaired-xml-encode) * <SNR>31_TransformSetup("xml_encode")
+n  <Plug>unimpaired_line_xml_encode * <SNR>31_TransformSetup("xml_encode")."_"
+n  <Plug>unimpaired_xml_encode * <SNR>31_TransformSetup("xml_encode")
+n  <Plug>(unimpaired-url-decode-line) * <SNR>31_TransformSetup("url_decode")."_"
+n  <Plug>(unimpaired-url-decode) * <SNR>31_TransformSetup("url_decode")
+n  <Plug>unimpaired_line_url_decode * <SNR>31_TransformSetup("url_decode")."_"
+n  <Plug>unimpaired_url_decode * <SNR>31_TransformSetup("url_decode")
+n  <Plug>(unimpaired-url-encode-line) * <SNR>31_TransformSetup("url_encode")."_"
+n  <Plug>(unimpaired-url-encode) * <SNR>31_TransformSetup("url_encode")
+n  <Plug>unimpaired_line_url_encode * <SNR>31_TransformSetup("url_encode")."_"
+n  <Plug>unimpaired_url_encode * <SNR>31_TransformSetup("url_encode")
+n  <Plug>(unimpaired-string-decode-line) * <SNR>31_TransformSetup("string_decode")."_"
+n  <Plug>(unimpaired-string-decode) * <SNR>31_TransformSetup("string_decode")
+n  <Plug>unimpaired_line_string_decode * <SNR>31_TransformSetup("string_decode")."_"
+n  <Plug>unimpaired_string_decode * <SNR>31_TransformSetup("string_decode")
+n  <Plug>(unimpaired-string-encode-line) * <SNR>31_TransformSetup("string_encode")."_"
+n  <Plug>(unimpaired-string-encode) * <SNR>31_TransformSetup("string_encode")
+n  <Plug>unimpaired_line_string_encode * <SNR>31_TransformSetup("string_encode")."_"
+n  <Plug>unimpaired_string_encode * <SNR>31_TransformSetup("string_encode")
+n  <Plug>unimpairedPutBelow * :call <SNR>31_putline(']p', 'below')<CR>
+n  <Plug>unimpairedPutAbove * :call <SNR>31_putline('[p', 'above')<CR>
+n  <Plug>(unimpaired-put-below-reformat) * :<C-U>call <SNR>31_putline(v:count1 . ']p', 'Below')<CR>=']
+n  <Plug>(unimpaired-put-above-reformat) * :<C-U>call <SNR>31_putline(v:count1 . '[p', 'Above')<CR>=']
+n  <Plug>(unimpaired-put-below-leftward) * :<C-U>call <SNR>31_putline(v:count1 . ']p', 'Below')<CR><']
+n  <Plug>(unimpaired-put-above-leftward) * :<C-U>call <SNR>31_putline(v:count1 . '[p', 'Above')<CR><']
+n  <Plug>(unimpaired-put-below-rightward) * :<C-U>call <SNR>31_putline(v:count1 . ']p', 'Below')<CR>>']
+n  <Plug>(unimpaired-put-above-rightward) * :<C-U>call <SNR>31_putline(v:count1 . '[p', 'Above')<CR>>']
+n  <Plug>(unimpaired-put-below) * :call <SNR>31_putline(']p', 'below')<CR>
+n  <Plug>(unimpaired-put-above) * :call <SNR>31_putline('[p', 'above')<CR>
+n  <Plug>(unimpaired-toggle)p & :<C-U>call <SNR>31_SetupPaste()<CR>0C
+n  <Plug>(unimpaired-disable)p & :<C-U>call <SNR>31_SetupPaste()<CR>o
+n  <Plug>(unimpaired-enable)p & :<C-U>call <SNR>31_SetupPaste()<CR>O
+n  <Plug>(unimpaired-paste) & :<C-U>call <SNR>31_SetupPaste()<CR>
+n  <Plug>unimpairedPaste * :call <SNR>31_SetupPaste()<CR>
+n  <Plug>(unimpaired-toggle)t & :<C-U>set colorcolumn=<C-R>=<SNR>31_ColorColumn(!empty(&cc))<CR><CR>
+n  <Plug>(unimpaired-disable)t & :<C-U>set colorcolumn=<C-R>=<SNR>31_ColorColumn(1)<CR><CR>
+n  <Plug>(unimpaired-enable)t & :<C-U>set colorcolumn=<C-R>=<SNR>31_ColorColumn(0)<CR><CR>
+n  <Plug>(unimpaired-toggle)+ & :<C-U>set <C-R>=<SNR>31_CursorOptions()<CR><CR>
+n  <Plug>(unimpaired-disable)+ & :<C-U>set nocursorline nocursorcolumn<CR>
+n  <Plug>(unimpaired-enable)+ & :<C-U>set cursorline cursorcolumn<CR>
+n  <Plug>(unimpaired-toggle)x & :<C-U>set <C-R>=<SNR>31_CursorOptions()<CR><CR>
+n  <Plug>(unimpaired-disable)x & :<C-U>set nocursorline nocursorcolumn<CR>
+n  <Plug>(unimpaired-enable)x & :<C-U>set cursorline cursorcolumn<CR>
+n  <Plug>(unimpaired-toggle)v & :<C-U>set <C-R>=(&virtualedit =~# "all") ? "virtualedit-=all" : "virtualedit+=all"<CR><CR>
+n  <Plug>(unimpaired-disable)v & :<C-U>set virtualedit-=all<CR>
+n  <Plug>(unimpaired-enable)v & :<C-U>set virtualedit+=all<CR>
+n  <Plug>(unimpaired-toggle)z & :<C-U>setlocal <C-R>=<SNR>31_Toggle("spell")<CR><CR>
+n  <Plug>(unimpaired-disable)z & :<C-U>setlocal nospell<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)z & :<C-U>setlocal spell<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)w & :<C-U>setlocal <C-R>=<SNR>31_Toggle("wrap")<CR><CR>
+n  <Plug>(unimpaired-disable)w & :<C-U>setlocal nowrap<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)w & :<C-U>setlocal wrap<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)s & :<C-U>setlocal <C-R>=<SNR>31_Toggle("spell")<CR><CR>
+n  <Plug>(unimpaired-disable)s & :<C-U>setlocal nospell<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)s & :<C-U>setlocal spell<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)r & :<C-U>setlocal <C-R>=<SNR>31_Toggle("relativenumber")<CR><CR>
+n  <Plug>(unimpaired-disable)r & :<C-U>setlocal norelativenumber<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)r & :<C-U>setlocal relativenumber<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)n & :<C-U>setlocal <C-R>=<SNR>31_Toggle("number")<CR><CR>
+n  <Plug>(unimpaired-disable)n & :<C-U>setlocal nonumber<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)n & :<C-U>setlocal number<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)l & :<C-U>setlocal <C-R>=<SNR>31_Toggle("list")<CR><CR>
+n  <Plug>(unimpaired-disable)l & :<C-U>setlocal nolist<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)l & :<C-U>setlocal list<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)i & :<C-U>set <C-R>=<SNR>31_Toggle("ignorecase")<CR><CR>
+n  <Plug>(unimpaired-disable)i & :<C-U>set noignorecase<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)i & :<C-U>set ignorecase<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)h & :<C-U>set <C-R>=<SNR>31_Toggle("hlsearch")<CR><CR>
+n  <Plug>(unimpaired-disable)h & :<C-U>set nohlsearch<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)h & :<C-U>set hlsearch<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)d & :<C-U><C-R>=&diff ? "diffoff" : "diffthis"<CR><CR>
+n  <Plug>(unimpaired-disable)d & :<C-U>diffoff<CR>
+n  <Plug>(unimpaired-enable)d & :<C-U>diffthis<CR>
+n  <Plug>(unimpaired-toggle)| & :<C-U>setlocal <C-R>=<SNR>31_Toggle("cursorcolumn")<CR><CR>
+n  <Plug>(unimpaired-disable)| & :<C-U>setlocal nocursorcolumn<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)| & :<C-U>setlocal cursorcolumn<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)u & :<C-U>setlocal <C-R>=<SNR>31_Toggle("cursorcolumn")<CR><CR>
+n  <Plug>(unimpaired-disable)u & :<C-U>setlocal nocursorcolumn<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)u & :<C-U>setlocal cursorcolumn<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)_ & :<C-U>setlocal <C-R>=<SNR>31_Toggle("cursorline")<CR><CR>
+n  <Plug>(unimpaired-disable)_ & :<C-U>setlocal nocursorline<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)_ & :<C-U>setlocal cursorline<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)- & :<C-U>setlocal <C-R>=<SNR>31_Toggle("cursorline")<CR><CR>
+n  <Plug>(unimpaired-disable)- & :<C-U>setlocal nocursorline<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)- & :<C-U>setlocal cursorline<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)c & :<C-U>setlocal <C-R>=<SNR>31_Toggle("cursorline")<CR><CR>
+n  <Plug>(unimpaired-disable)c & :<C-U>setlocal nocursorline<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-enable)c & :<C-U>setlocal cursorline<C-R>=<SNR>31_StatuslineRefresh()<CR><CR>
+n  <Plug>(unimpaired-toggle)b & :<C-U>set background=<C-R>=&background == "dark" ? "light" : "dark"<CR><CR>
+n  <Plug>(unimpaired-disable)b & :<C-U>set background=dark<CR>
+n  <Plug>(unimpaired-enable)b & :<C-U>set background=light<CR>
+   <Plug>unimpairedMoveSelectionDown * :<C-U>call <SNR>31_MoveSelectionDown(v:count1)<CR>
+   <Plug>unimpairedMoveSelectionUp * :<C-U>call <SNR>31_MoveSelectionUp(v:count1)<CR>
+n  <Plug>unimpairedMoveDown * :<C-U>call <SNR>31_Move('+',v:count1,'down')<CR>
+n  <Plug>unimpairedMoveUp * :<C-U>call <SNR>31_Move('--',v:count1,'up')<CR>
+   <Plug>(unimpaired-move-selection-down) * :<C-U>call <SNR>31_MoveSelectionDown(v:count1)<CR>
+   <Plug>(unimpaired-move-selection-up) * :<C-U>call <SNR>31_MoveSelectionUp(v:count1)<CR>
+n  <Plug>(unimpaired-move-down) * :<C-U>call <SNR>31_Move('+',v:count1,'down')<CR>
+n  <Plug>(unimpaired-move-up) * :<C-U>call <SNR>31_Move('--',v:count1,'up')<CR>
+n  <Plug>unimpairedBlankDown * :<C-U>exe <SNR>31_BlankDown()<CR>
+n  <Plug>unimpairedBlankUp * :<C-U>exe <SNR>31_BlankUp()<CR>
+n  <Plug>(unimpaired-blank-down) * :<C-U>exe <SNR>31_BlankDown()<CR>
+n  <Plug>(unimpaired-blank-up) * :<C-U>exe <SNR>31_BlankUp()<CR>
+n  <Plug>unimpairedContextNext * :<C-U>call <SNR>31_Context(0)<CR>
+n  <Plug>unimpairedContextPrevious * :<C-U>call <SNR>31_Context(1)<CR>
+n  <Plug>(unimpaired-context-next) * :<C-U>call <SNR>31_Context(0)<CR>
+n  <Plug>(unimpaired-context-previous) * :<C-U>call <SNR>31_Context(1)<CR>
+n  <Plug>unimpairedDirectoryPrevious * :<C-U>execute <SNR>31_PreviousFileEntry(v:count1)<CR>
+n  <Plug>unimpairedDirectoryNext * :<C-U>execute <SNR>31_NextFileEntry(v:count1)<CR>
+n  <Plug>(unimpaired-directory-previous) * :<C-U>execute <SNR>31_PreviousFileEntry(v:count1)<CR>
+n  <Plug>(unimpaired-directory-next) * :<C-U>execute <SNR>31_NextFileEntry(v:count1)<CR>
+n  <Plug>unimpairedTPNext * :<C-U>exe "p".(v:count ? v:count : "")."tnext"<CR>
+n  <Plug>unimpairedTPPrevious * :<C-U>exe "p".(v:count ? v:count : "")."tprevious"<CR>
+n  <Plug>(unimpaired-ptnext) * :<C-U>exe v:count1 . "ptnext"<CR>
+n  <Plug>(unimpaired-ptprevious) * :<C-U>exe v:count1 . "ptprevious"<CR>
+n  <Plug>unimpairedTLast * :<C-U>exe "".(v:count ? v:count : "")."tlast"<CR>
+n  <Plug>unimpairedTFirst * :<C-U>exe "".(v:count ? v:count : "")."tfirst"<CR>
+n  <Plug>unimpairedTNext * :<C-U>exe "".(v:count ? v:count : "")."tnext"<CR>
+n  <Plug>unimpairedTPrevious * :<C-U>exe "".(v:count ? v:count : "")."tprevious"<CR>
+n  <Plug>(unimpaired-tlast) * :<C-U><C-R>=v:count ? v:count . "trewind" : "tlast"<CR><CR>
+n  <Plug>(unimpaired-tfirst) * :<C-U><C-R>=v:count ? v:count . "trewind" : "tfirst"<CR><CR>
+n  <Plug>(unimpaired-tnext) * :<C-U>exe "".(v:count ? v:count : "")."tnext"<CR>
+n  <Plug>(unimpaired-tprevious) * :<C-U>exe "".(v:count ? v:count : "")."tprevious"<CR>
+n  <Plug>unimpairedQNFile * :<C-U>exe "".(v:count ? v:count : "")."cnfile"<CR>zv
+n  <Plug>unimpairedQPFile * :<C-U>exe "".(v:count ? v:count : "")."cpfile"<CR>zv
+n  <Plug>(unimpaired-cnfile) * :<C-U>exe "".(v:count ? v:count : "")."cnfile"<CR>zv
+n  <Plug>(unimpaired-cpfile) * :<C-U>exe "".(v:count ? v:count : "")."cpfile"<CR>zv
+n  <Plug>unimpairedQLast * :<C-U>exe "".(v:count ? v:count : "")."clast"<CR>zv
+n  <Plug>unimpairedQFirst * :<C-U>exe "".(v:count ? v:count : "")."cfirst"<CR>zv
+n  <Plug>unimpairedQNext * :<C-U>exe "".(v:count ? v:count : "")."cnext"<CR>zv
+n  <Plug>unimpairedQPrevious * :<C-U>exe "".(v:count ? v:count : "")."cprevious"<CR>zv
+n  <Plug>(unimpaired-clast) * :<C-U><C-R>=v:count ? v:count . "cc" : "clast"<CR><CR>zv
+n  <Plug>(unimpaired-cfirst) * :<C-U><C-R>=v:count ? v:count . "cc" : "cfirst"<CR><CR>zv
+n  <Plug>(unimpaired-cnext) * :<C-U>exe "".(v:count ? v:count : "")."cnext"<CR>zv
+n  <Plug>(unimpaired-cprevious) * :<C-U>exe "".(v:count ? v:count : "")."cprevious"<CR>zv
+n  <Plug>unimpairedLNFile * :<C-U>exe "".(v:count ? v:count : "")."lnfile"<CR>zv
+n  <Plug>unimpairedLPFile * :<C-U>exe "".(v:count ? v:count : "")."lpfile"<CR>zv
+n  <Plug>(unimpaired-lnfile) * :<C-U>exe "".(v:count ? v:count : "")."lnfile"<CR>zv
+n  <Plug>(unimpaired-lpfile) * :<C-U>exe "".(v:count ? v:count : "")."lpfile"<CR>zv
+n  <Plug>unimpairedLLast * :<C-U>exe "".(v:count ? v:count : "")."llast"<CR>zv
+n  <Plug>unimpairedLFirst * :<C-U>exe "".(v:count ? v:count : "")."lfirst"<CR>zv
+n  <Plug>unimpairedLNext * :<C-U>exe "".(v:count ? v:count : "")."lnext"<CR>zv
+n  <Plug>unimpairedLPrevious * :<C-U>exe "".(v:count ? v:count : "")."lprevious"<CR>zv
+n  <Plug>(unimpaired-llast) * :<C-U><C-R>=v:count ? v:count . "ll" : "llast"<CR><CR>zv
+n  <Plug>(unimpaired-lfirst) * :<C-U><C-R>=v:count ? v:count . "ll" : "lfirst"<CR><CR>zv
+n  <Plug>(unimpaired-lnext) * :<C-U>exe "".(v:count ? v:count : "")."lnext"<CR>zv
+n  <Plug>(unimpaired-lprevious) * :<C-U>exe "".(v:count ? v:count : "")."lprevious"<CR>zv
+n  <Plug>unimpairedBLast * :<C-U>exe "".(v:count ? v:count : "")."blast"<CR>
+n  <Plug>unimpairedBFirst * :<C-U>exe "".(v:count ? v:count : "")."bfirst"<CR>
+n  <Plug>unimpairedBNext * :<C-U>exe "".(v:count ? v:count : "")."bnext"<CR>
+n  <Plug>unimpairedBPrevious * :<C-U>exe "".(v:count ? v:count : "")."bprevious"<CR>
+n  <Plug>(unimpaired-blast) * :<C-U><C-R>=v:count ? v:count . "buffer" : "blast"<CR><CR>
+n  <Plug>(unimpaired-bfirst) * :<C-U><C-R>=v:count ? v:count . "buffer" : "bfirst"<CR><CR>
+n  <Plug>(unimpaired-bnext) * :<C-U>exe "".(v:count ? v:count : "")."bnext"<CR>
+n  <Plug>(unimpaired-bprevious) * :<C-U>exe "".(v:count ? v:count : "")."bprevious"<CR>
+n  <Plug>unimpairedALast * :<C-U>exe "".(v:count ? v:count : "")."last"<CR>
+n  <Plug>unimpairedAFirst * :<C-U>exe "".(v:count ? v:count : "")."first"<CR>
+n  <Plug>unimpairedANext * :<C-U>exe "".(v:count ? v:count : "")."next"<CR>
+n  <Plug>unimpairedAPrevious * :<C-U>exe "".(v:count ? v:count : "")."previous"<CR>
+n  <Plug>(unimpaired-last) * :<C-U><C-R>=v:count ? v:count . "argument" : "last"<CR><CR>
+n  <Plug>(unimpaired-first) * :<C-U><C-R>=v:count ? v:count . "argument" : "first"<CR><CR>
+n  <Plug>(unimpaired-next) * :<C-U>exe "".(v:count ? v:count : "")."next"<CR>
+n  <Plug>(unimpaired-previous) * :<C-U>exe "".(v:count ? v:count : "")."previous"<CR>
+n  <Plug>(fzf-maps-n) * :<C-U>call fzf#vim#maps('n', 0)<CR>
+n  <Plug>(fzf-normal) * <Nop>
+n  <Plug>(fzf-insert) * i
+n  <C-X>       * <Cmd>Boole decrement<CR>
+n  <C-A>       * <Cmd>Boole increment<CR>
+n  <Plug>fugitive: & <Nop>
+n  <Plug>fugitive:y<C-G> & :<C-U>call setreg(v:register, fugitive#Object(@%))<CR>
+n  <D-p>       * <Cmd>Telescope git_files<CR>
+n  <Plug>PlenaryTestFile * :lua require('plenary.test_harness').test_directory(vim.fn.expand("%:p"))<CR>
+n  <C-Y>       * 3<C-Y>
+n  <C-E>       * 3<C-E>
+n  <C-K>         <Plug>WinMoveUp
+n  <C-J>         <Plug>WinMoveDown
+n  <C-H>         <Plug>WinMoveLeft
+n  <C-L>         <Plug>WinMoveRight
+n  ¬           * :cnext<CR>zz
+n  ˚           * :m .-2<CR>==
+n  ˙           * :cprev<CR>zz
+n  ∆           * :m .+1<CR>==

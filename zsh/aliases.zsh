@@ -30,11 +30,12 @@ alias clsym="find -L . -name . -o -type d -prune -o -type l -exec rm {} +"
 # use exa if available
 if [[ -x "$(command -v eza)" ]]; then
   alias ll='eza --icons --git --long'
-  alias l='eza --icons --git --all --long'
+  alias ls='eza --icons --git --all --long'
   alias ld='eza -lD'
   alias lf='eza --color=always | grep -v /'
   alias lh='eza -dl .* --group-directories-first'
-  alias ls='eza -alf --color=always --sort=size | grep -v /'
+  alias lS='eza -alf --color=always --sort=size | grep -v /'
+  alias lt='eza -al --color=always --sort=created'
 else
   alias l="ls -lah ${colorflag}"
   alias ll="ls -lFh ${colorflag}"
@@ -48,3 +49,6 @@ alias history="fc -l 100"
 
 # show all history entries
 alias histsearch="fc -l 0 | grep"
+
+# Kill hung Salesforce authentication redirect listener
+alias lkill="PID=\$(netstat -avn | egrep \"Active|Proto|2576\" | grep -e ^tcp4 | tail -n1 | awk '{print \$9}');kill \$PID"
